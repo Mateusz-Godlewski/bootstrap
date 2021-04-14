@@ -6,10 +6,19 @@ h3 {
     margin-top: 30px;
 }
 
+h2 {
+    margin-bottom: 30px;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .features-items {
     margin: 30px auto;
     text-align: center;
-    width: 25%;
+    z-index: 1;
+
 }
 
 #title {
@@ -17,9 +26,12 @@ h3 {
 }
 
 #features {
-    margin: 100px auto;
+    background-color: #fff;
+    padding: 100px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    z-index: 1;
 }
 
 #head {
@@ -28,6 +40,22 @@ h3 {
     font-weight: 900;
     font-size: 5rem;
     line-height: 1.5;
+    z-index: -1;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #db3f3b;
+    color: #fff;
+}
+
+#press {
+    background-color: #db3f3b;
+    padding: 3% 10%;
+}
+
+#pricing {
+    padding: 3% 10%;
 }
 
 .navbar-brand {
@@ -35,7 +63,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 3% 10% 0% 10%;
 }
 
 .iphone {
@@ -44,11 +72,13 @@ h3 {
 
 .mockup-phone {
     transform: rotate(25deg);
+    position: relative;
+    right: 30px;
 }
 
 .buttons {
-    margin-top: 170px;
-    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 .btn-outline-light {
@@ -62,3 +92,36 @@ h3 {
 .fa-5x:hover {
     color: #b53633;
 }
+
+.testimonial-image {
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    margin: 30px;
+}
+
+.press-items {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.press-images {
+    width: 55%;
+}
+
+.carousel-item {
+    padding: 3% 10%;
+}
+
+.pricing-header {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-button {
+    width: 100%;
+}
+
